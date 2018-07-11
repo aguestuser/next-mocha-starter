@@ -12,9 +12,12 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "BABEL_ENV=test NODE_ENV=test mocha --require @babel/register 'test/**/*.spec.js'"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0-beta.53",
     "@babel/register": "^7.0.0-beta.53",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
