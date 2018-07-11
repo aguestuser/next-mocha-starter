@@ -1,0 +1,9 @@
+{
+  "name": "next-mocha-starter",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/aguestuser/next-mocha-starter",
+  "author": "aguestuser <aguestuser@riseup.net>",
+  "license": "MIT",
+  "private": false
+}
